@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="home.css" />
+    <title>Manu</title>
+  </head>
+
+  <body>
+    <main>
+      <div class="container">
+        <div class="header">
+          <div class="logo">
+            <div class="green"></div>
+            <div class="yellow"></div>
+            <div class="red"></div>
+          </div>
+          <a href="index.html">
+            <div class="logotext">ethiopiques</div>
+          </a>
+          <div class="manu">
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="box3"></div>
+          </div>
+        </div>
+        <div class="box">
+          <a href="ethiopiques-story.html"><div class="story">Story</div> </a>
+          <a href="ethiopiques-author.html">
+            <div class="author">Author</div>
+          </a>
+          <a href="ethiopiques-contact.html">
+            <div class="contact">Contact</div>
+          </a>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
+
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    width: 1950px;
+    height: 1080px;
+    background-color: black;
+  }
+  main {
+    display: flex;
+    width: 1950px;
+    height: 1080px;
+    background-color: black;
+  }
+  .container {
+    margin-top: 190px;
+    height: 1080px;
+    width: 1950px;
+    background-color: black;
+  }
+  div.header {
+    margin-left: 500px;
+    height: 100px;
+    width: 1523px;
+    display: flex;
+    background-color: black;
+  }
+  div.logo {
+    flex-direction: left;
+    height: 100px;
+    width: 50px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat (3, 20px);
+    gap: 5px;
+  }
+  div.logotext {
+    color: white;
+    font-family: Bauhaus;
+    font-size: 50px;
+    margin-top: 15px;
+  }
+  div.green {
+    background-color: Green;
+  }
+  div.yellow {
+    background-color: Yellow;
+  }
+  div.red {
+    background-color: Red;
+  }
+  div.box {
+    margin-top: 100px;
+    margin-left: 750px;
+    background-color: pink;
+    height: 300px;
+    width: 800px;
+    display: grid;
+    grid-template-rows: repeat (3) 100px;
+  }
+  div.box1 {
+    border: 3px solid white;
+    border-radius: 10px;
+    background-color: white;
+  }
+  div.box2 {
+    border: 3px solid white;
+    border-radius: 10px;
+    background-color: white;
+  }
+  div.box3 {
+    border: 3px solid white;
+    border-radius: 10px;
+    background-color: white;
+  }
+  div.manu {
+    margin-left: 350px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat (3 20px);
+    background-color: black;
+    flex-direction: right;
+    width: 80px;
+    height: 80px;
+  }
+  div.story {
+    text-align: center;
+    background-color: black;
+    font-family: Bavex;
+    font-size: 100px;
+    color: white;
+  }
+  div.author {
+    text-align: center;
+    font-family: Bavex;
+    font-size: 100px;
+    color: white;
+    background-color: black;
+  }
+  div.contact {
+    text-align: center;
+    font-family: Bavex;
+    font-size: 100px;
+    color: white;
+    background-color: black;
+  }
+</style>
