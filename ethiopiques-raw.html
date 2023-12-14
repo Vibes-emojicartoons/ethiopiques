@@ -16,11 +16,11 @@
             <div class="yellow"></div>
             <div class="red"></div>
           </div>
-          <a href="index.html">
+          <a id="logotext" href="index.html">
             <div class="logotext">ethiopiques</div>
           </a>
-          <div class="raw">Raw</div>
-          <a href="ethiopiques-manu.html">
+          <div class="raw"> <a id="story" href="ethiopiques-story.html"> Raw</a></div>
+          <a id="manu" href="ethiopiques-manu.html">
             <div class="manu">
               <div class="box1"></div>
               <div class="box2"></div>
@@ -82,7 +82,7 @@
     background-color: black;
   }
   div.header {
-    margin-left: 350px;
+    margin-left: 650px;
     height: 100px;
     width: 1523px;
     display: flex;
@@ -95,7 +95,10 @@
     background-color: black;
     display: grid;
     grid-template-columns: repeat (3, 20px);
-    gap: 5px;
+
+  }
+  a#logotext {
+    text-decoration: none;
   }
   div.logotext {
     color: white;
@@ -144,8 +147,12 @@
     border-radius: 10px;
     background-color: white;
   }
+  a#manu {
+    text-decoration: none;
+    color: white;
+  }
   div.manu {
-    margin-left: 900px;
+    margin-left: 500px;
     margin-top: 10px;
     display: grid;
     grid-template-columns: repeat (3 20px);
@@ -154,11 +161,15 @@
     width: 80px;
     height: 80px;
   }
+  a#story {
+    text-decoration: none;
+    color: white;
+  }
   div.raw {
     font-family: Bavex;
     font-size: 77px;
     color: white;
-    margin-left: 570px;
+    margin-left: 370px;
   }
   div.block1 {
     background-color: black;

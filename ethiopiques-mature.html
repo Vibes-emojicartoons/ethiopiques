@@ -12,15 +12,15 @@
       <div class="container">
         <div class="header">
           <div class="logo">
-            <div class="green">Green</div>
-            <div class="yellow">Yellow</div>
-            <div class="red">Red</div>
+            <div class="green"></div>
+            <div class="yellow"></div>
+            <div class="red"></div>
           </div>
-          <a href="index.html">
+          <a id="logotext" href="index.html">
             <div class="logotext">ethiopiques</div>
           </a>
-          <div class="mature">Mature</div>
-          <a href="ethiopiques-manu.html">
+          <div class="mature">  <a id="story" href="ethiopiques-story.html">Mature</a></div>
+          <a id="manu" href="ethiopiques-manu.html">
             <div class="manu">
               <div class="box1">white</div>
               <div class="box2">white</div>
@@ -85,7 +85,7 @@ In a world once divided by differences, a new era of unity dawned.
     background-color: black;
   }
   div.header {
-    margin-left: 350px;
+    margin-left: 550px;
     height: 100px;
     width: 1523px;
     display: flex;
@@ -98,7 +98,9 @@ In a world once divided by differences, a new era of unity dawned.
     background-color: black;
     display: grid;
     grid-template-columns: repeat (3, 20px);
-    gap: 5px;
+  }
+  a#logotext {
+    text-decoration: none;
   }
   div.logotext {
     color: white;
@@ -127,7 +129,7 @@ In a world once divided by differences, a new era of unity dawned.
     grid-template-columns: 1061px 507px;
     width: 1672px;
     height: 751px;
-    margin-left: 550px;
+    margin-left: 450px;
     margin-top: 100px;
   }
   div.box1 {
@@ -145,8 +147,16 @@ In a world once divided by differences, a new era of unity dawned.
     border-radius: 10px;
     background-color: white;
   }
+  a#story {
+    text-decoration: none;
+    color: white;
+  }
+  a#manu {
+    text-decoration: none;
+    color: white;
+  }
   div.manu {
-    margin-left: 900px;
+    margin-left: 600px;
     margin-top: 10px;
     display: grid;
     grid-template-columns: repeat (3) 20px;
@@ -154,13 +164,13 @@ In a world once divided by differences, a new era of unity dawned.
     flex-direction: right;
     width: 80px;
     height: 80px;
-    gap: 5px;
+    
   }
   div.mature {
     font-family: Bavex;
     font-size: 77px;
     color: white;
-    margin-left: 550px;
+    margin-left: 250px;
   }
   div.block1 {
     background-color: black;

@@ -15,24 +15,24 @@
             <div class="yellow"></div>
             <div class="red"></div>
           </div>
-          <div class="logotext">ethiopiques</div>
+          <div class="logotext"><a id="logotext" href="index.html"> ethiopiques</a></div>
           <div class="manu">
-            <a href="ethiopiques-manu.html">
-              <div class="box1"></div>
-              <div class="box2"></div>
-              <div class="box3"></div>
+            <a id="manu" href="ethiopiques-manu.html">
+              <div class="box1">white</div>
+              <div class="box2">white</div>
+              <div class="box3">white</div>
             </a>
           </div>
         </div>
         <div class="bars">
           
-          <a href="ethiopiques-coal-stove.html"><div class="bar1">Coal stove</div></a>
-          <div class="bar2"><a href="ethiopiques-dry-soil.html" class="no-underline">Dry soil </a></div>
-          <div class="bar3"><a href="ethiopiques-malatlha.html" class="no-underline">Malatlha</a></div>
-          <div class="bar4"><a href="ethiopiques-mature.html" class="no-underline">Mature</a></div>
-          <div class="bar5"><a href="ethiopiques-raw.html" class="no-underline">Raw</a></div>
-          <div class="bar6"><a href="ethiopiques-sunset.html" class="no-underline">Sunset</a></div>
-          <div class="bar7"><a href="ethiopiques-vintage.html" class="no-underline">Vintage</a></div>
+          <div class="bar1"><a id="coal" href="ethiopiques-coal-stove.html">Coal stove</a></div>
+          <div class="bar2"><a id="drysoil" href="ethiopiques-dry-soil.html">Dry soil </a></div>
+          <div class="bar3"><a id="malatlha" href="ethiopiques-malatlha.html">Malatlha</a></div>
+          <div class="bar4"><a id="mature" href="ethiopiques-mature.html">Mature</a></div>
+          <div class="bar5"><a id="raw" href="ethiopiques-raw.html">Raw</a></div>
+          <div class="bar6"><a id="sunset" href="ethiopiques-sunset.html">Sunset</a></div>
+          <div class="bar7"><a id="vintage" href="ethiopiques-vintage.html">Vintage</a></div>
           
         <div>
     </main>
@@ -72,6 +72,10 @@
     grid-template-columns: repeat(3 20px);
 
   }
+  a#logotext {
+    text-decoration: none;
+    color: white;
+  }
   div.logotext {
     color: white;
     font-family: Bauhaus;
@@ -107,27 +111,37 @@
     margin-left: 1153px;
     margin-top: 10px;
     display: grid;
-    grid-template-columns: repeat (3, 30px);
+    grid-template-columns: repeat (3) 20px;
     background-color: black;
-    flex-direction: left;
+    flex-direction: right;
     width: 80px;
-    height: 90px;
+    height: 80px;
+    gap: 5px;
     
+  }
+  a#manu {
+    text-decoration: none;
   }
   div.box1 {
     border: 3px solid white;
-    border-radius: 15px;
+    border-radius: 10px;
     background-color: white;
+    color: white;
+    text-decoration: none;
   }
   div.box2 {
     border: 3px solid white;
-    border-radius: 15px;
+    border-radius: 10px;
     background-color: white;
+    color: white;
+    text-decoration: none;
   }
   div.box3 {
     border: 3px solid white;
-    border-radius: 15px;
+    border-radius: 10px;
     background-color: white;
+    color: white;
+    text-decoration: none;
   }
   div.bars {
     height: 1400px;
@@ -142,14 +156,43 @@
   text-align: center;
   color: white;
   margin-top: 100px;
+  text-decoration: none;
    
   
 }
-div.bars:hover {
-  color: white; /* Reveals the white color on hover */
-  text-decoration:white;
-  filter: brightness(white);
+
+div.bar1{
+  color: white;
+  text-decoration: none;
 }
 
+a#coal {
+  color: white;
+  text-decoration: none;
+}
+a#drysoil {
+  color: white;
+  text-decoration: none;
+}
+a#malatlha {
+  color: white;
+  text-decoration: none;
+}
+a#mature {
+  color: white;
+  text-decoration: none;
+}
+a#raw {
+  color: white;
+  text-decoration: none;
+}
+a#sunset {
+  color: white;
+  text-decoration: none;
+}
+a#vintage {
+  color: white;
+  text-decoration: none;
+}
 
 </style>

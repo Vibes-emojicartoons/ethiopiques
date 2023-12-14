@@ -16,21 +16,23 @@
             <div class="yellow"></div>
             <div class="red"></div>
           </div>
-          <a href="index.html">
+          <a id="logotext" href="index.html">
             <div class="logotext">ethiopiques</div>
           </a>
           <div class="manu">
-            <div class="box1"></div>
-            <div class="box2"></div>
-            <div class="box3"></div>
+            <div class="box1">white</div>
+            <div class="box2">white</div>
+            <div class="box3">white</div>
           </div>
         </div>
         <div class="box">
-          <a href="ethiopiques-story.html"><div class="story">Story</div> </a>
-          <a href="ethiopiques-author.html">
+          <a id="story" href="ethiopiques-story.html"
+            ><div class="story">Story</div>
+          </a>
+          <a id="author" href="ethiopiques-author.html">
             <div class="author">Author</div>
           </a>
-          <a href="ethiopiques-contact.html">
+          <a id="contact" href="ethiopiques-contact.html">
             <div class="contact">Contact</div>
           </a>
         </div>
@@ -73,11 +75,15 @@
     background-color: black;
     display: grid;
     grid-template-columns: repeat (3, 20px);
-    gap: 5px;
+  }
+  a#logotext {
+    text-decoration: none;
+    color: white;
   }
   div.logotext {
     color: white;
     font-family: Bauhaus;
+    font-weight: bold;
     font-size: 50px;
     margin-top: 15px;
   }
@@ -100,19 +106,23 @@
     grid-template-rows: repeat (3) 100px;
   }
   div.box1 {
-    border: 3px solid white;
+    border: 3px solid black;
     border-radius: 10px;
-    background-color: white;
+    background-color: black;
   }
   div.box2 {
-    border: 3px solid white;
+    border: 3px solid black;
     border-radius: 10px;
-    background-color: white;
+    background-color: black;
   }
   div.box3 {
-    border: 3px solid white;
+    border: 3px solid black;
     border-radius: 10px;
-    background-color: white;
+    background-color: black;
+  }
+  a#manu {
+    text-decoration: none;
+    color: black;
   }
   div.manu {
     margin-left: 350px;
@@ -123,6 +133,7 @@
     flex-direction: right;
     width: 80px;
     height: 80px;
+    color: black;
   }
   div.story {
     text-align: center;
@@ -144,5 +155,17 @@
     font-size: 100px;
     color: white;
     background-color: black;
+  }
+  a#story {
+    text-decoration: none;
+    color: white;
+  }
+  a#author {
+    text-decoration: none;
+    color: white;
+  }
+  a#contact {
+    text-decoration: none;
+    color: white;
   }
 </style>

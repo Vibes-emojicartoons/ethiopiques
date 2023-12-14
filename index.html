@@ -17,23 +17,20 @@
           </div>
           <div class="logotext">ethiopiques</div>
           <div class="manu">
-            <a href="ethiopiques-manu.html">
-              <div class="box1"></div>
-              <div class="box2"></div>
-              <div class="box3"></div>
+            <a id="manu" href="ethiopiques-manu.html">
+              <div class="box1">white</div>
+              <div class="box2">white</div>
+              <div class="box3">white</div>
             </a>
           </div>
         </div>
         <div class="pic">
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/NvXR6D-Ti08?si=OoLBn5fXZ5LYF29S"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
+          <video
+            width="640"
+            height="360"
+            src="video/videoplayback.mp4"
+            controls
+          ></video>
         </div>
       </div>
     </main>
@@ -58,7 +55,7 @@
     background-color: black;
   }
   div.header {
-    margin-left: 500px;
+    margin-left: 300px;
     height: 100px;
     width: 1523px;
     display: flex;
@@ -103,6 +100,10 @@
   div.red {
     background-color: Red;
   }
+  a#manu {
+    text-decoration: none;
+    color: white;
+  }
   div.manu {
     margin-left: 1023px;
     margin-top: 10px;
@@ -128,5 +129,11 @@
     border: 3px solid white;
     border-radius: 10px;
     background-color: white;
+  }
+  div.pic {
+    margin-left: 700px;
+    margin-top: 50px;
+    width: 640px;
+    height: 360px;
   }
 </style>

@@ -11,16 +11,17 @@
     <main>
       <div class="container">
         <div class="header">
+        
           <div class="logo">
             <div class="green">Green</div>
             <div class="yellow">Yellow</div>
             <div class="red">Red</div>
           </div>
-          <a href="index.html">
+          <a id="logotext" href="index.html">
             <div class="logotext">ethiopiques</div>
           </a>
-          <div class="sunset">Sunset</div>
-          <a href="ethiopiques-manu.html">
+          <div class="sunset"> <a id="sunset" href="ethiopiques-story.html"> Sunset</div>
+          <a id="manu" href="ethiopiques-manu.html">
             <div class="manu">
               <div class="box1">white</div>
               <div class="box2">white</div>
@@ -97,7 +98,11 @@
     background-color: black;
     display: grid;
     grid-template-columns: repeat (3, 20px);
-    gap: 5px;
+    
+  }
+  a#logotext {
+    text-decoration: none;
+    color: white;
   }
   div.logotext {
     color: white;
@@ -107,11 +112,14 @@
   }
   div.green {
     background-color: Green;
+    color: green;
   }
   div.yellow {
+    color: yellow;
     background-color: Yellow;
   }
   div.red {
+    color: red;
     background-color: Red;
   }
   div.contact {
@@ -144,6 +152,10 @@
     border-radius: 10px;
     background-color: white;
   }
+  a#manu{
+    text-decoration: none;
+    color: white;
+  }
   div.manu {
     margin-left: 500px;
     margin-top: 10px;
@@ -154,6 +166,10 @@
     width: 80px;
     height: 80px;
     gap: 5px;
+  }
+  a#sunset {
+    text-decoration: none;
+    color: white;
   }
   div.sunset {
     font-family: Bavex;

@@ -16,11 +16,11 @@
             <div class="yellow">Yellow</div>
             <div class="red">Red</div>
           </div>
-          <a href="index.html">
+          <a id="logotext" href="index.html">
             <div class="logotext">ethiopiques</div>
           </a>
           <div class="contact">Contact</div>
-          <a href="ethiopiques-manu.html">
+          <a id="manu" href="ethiopiques-manu.html">
             <div class="manu">
               <div class="box1">white</div>
               <div class="box2">white</div>
@@ -29,6 +29,7 @@
           </a>
         </div>
         <div class="box">
+          <a href="https://twitter.com/home?lang=en">
           <div class="twitter">
             <img
               src="images/twitter x.png"
@@ -36,22 +37,27 @@
               width="114px"
               height="114px"
             />
+          </a>
           </div>
           <div class="facebook">
+            <a href="https://www.facebook.com/">
             <img
               src="images/face.png"
               alt="facebooklogo"
               width="114px"
               height="114px"
             />
+          </a>
           </div>
           <div class="linkedin">
+            <a href="https://www.linkedin.com/feed/">
             <img
               src="images/linkedin.png"
               alt="linkedinlogo"
               width="114px"
               height="114px"
             />
+            </a>
           </div>
         </div>
       </div>
@@ -95,6 +101,10 @@
     grid-template-columns: repeat (3, 20px);
     gap: 5px;
   }
+  a#logotext {
+    text-decoration: none;
+    color: white;
+  }
   div.logotext {
     color: white;
     font-family: Bauhaus;
@@ -102,12 +112,15 @@
     margin-top: 15px;
   }
   div.green {
+    color: green;
     background-color: Green;
   }
   div.yellow {
+    color: yellow;
     background-color: Yellow;
   }
   div.red {
+    color: red;
     background-color: Red;
   }
   div.contact {
@@ -140,6 +153,10 @@
     border: 3px solid white;
     border-radius: 10px;
     background-color: white;
+  }
+  a#manu {
+    text-decoration: none;
+    color: white;
   }
   div.manu {
     margin-left: 500px;
